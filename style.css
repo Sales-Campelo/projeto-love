@@ -1,0 +1,54 @@
+body {
+            font-family: "Fraunces", serif;
+            background-image: url(./img/hearts.gif);
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        #photo-carousel {
+            width: 100%;
+            max-width: 360px;
+            margin: auto;
+            overflow: hidden;
+            
+        }
+        #photo-carousel img {
+            width: 100%;
+            display: none;
+            max-height: 500px;
+            margin: 10px 0 10px 0;
+            border-radius: 10px;
+        }
+        #photo-carousel img.active {
+            display: block;
+        }
+        .frase{
+            font-family: "Fraunces", serif;
+            background-color: antiquewhite;
+            border-radius: 15px;
+            padding: 5px;
+        }
+
+        #countdown {
+            background-color: antiquewhite;
+            font-size: 2em;
+            margin-top: 20px;
+            color: #d9534f;
+            border-radius: 15px;
+            padding: 5px;
+        }
+        .bton {
+            font-family: "Fraunces", serif;
+            padding: 8px 15px;
+            font-size: 20px;
+            color: #333;
+            background-color: antiquewhite;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .bton:hover {
+            background-color: rgb(220, 98, 98);
+        }
