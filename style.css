@@ -24,7 +24,7 @@ body {
         }
         .frase{
             font-family: "Fraunces", serif;
-            background-color: antiquewhite;
+            background-color: pink;
             border-radius: 15px;
             padding: 5px;
         }
@@ -42,7 +42,7 @@ body {
             padding: 8px 15px;
             font-size: 20px;
             color: #333;
-            background-color: antiquewhite;
+            background-color: pink;
             border: 2px solid white;
             border-radius: 5px;
             margin: 10px 0;
@@ -51,4 +51,17 @@ body {
         }
         .bton:hover {
             background-color: rgb(220, 98, 98);
+        }
+
+        /* frases rolantes */
+         #frases {
+            width: 300px;
+            text-align: center;
+            font-family: "Fraunces", serif;
+            font-size: 18px;
+            font-weight: 100;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: rgb(233, 189, 221);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
